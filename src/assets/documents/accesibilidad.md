@@ -5,7 +5,7 @@
 - Las tarjetas incluyen `tabIndex={0}`, permitiendo acceder sin ratón.
 - Todos los elementos muestran un foco visual claro.
 
-![Tab producto](/imagenes/tab.png)
+![Tab producto](<img width="1279" height="629" alt="tab" src="https://github.com/user-attachments/assets/65d46bb7-d5a3-4376-9733-6a0e512960ff" />)
 ![Tab enlace](/imagenes/tab2.png)
 
 
