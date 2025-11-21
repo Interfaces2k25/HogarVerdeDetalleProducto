@@ -13,6 +13,11 @@ function PlantDetail() {
 
   return (
     <main className="max-w-5xl mx-auto px-6 py-10">
+      
+      <button>
+        <a href="/productlist" className="text-black hover:underline ml-4 bg-white p-2 rounded-2xl  ">← Volver a los productos</a>
+      </button>
+      
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
 
         {/* Imagen */}

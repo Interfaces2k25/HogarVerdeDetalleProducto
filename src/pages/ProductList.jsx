@@ -6,6 +6,11 @@ import Card from "../components/Card";
 function ProductList({ categories }) {
   return (
     <div className="flex flex-col gap-12 w-full px-6">
+
+      <button>
+        <a href="/" className="text-black hover:underline ml-4 bg-white p-2 rounded-2xl flex justify-start ">← Volver al inicio</a>
+      </button>
+
       <h1 className="contenedor__h1">NUESTROS PRODUCTOS</h1>
       {categories.map((category) => (
         <section key={category}>
@@ -17,8 +22,9 @@ function ProductList({ categories }) {
               .map((p) => (
                 <Card
                   key={p.id}
-                  foto={p.image}
-                  nombre={p.name}
+                  image={p.image}
+                  name={p.name}
+                  price={p.price}
                   to={`/producto/${p.id}`}
                 >
                   {p.description}
