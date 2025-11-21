@@ -5,8 +5,8 @@
 - Las tarjetas incluyen `tabIndex={0}`, permitiendo acceder sin ratón.
 - Todos los elementos muestran un foco visual claro.
 
-![Tab producto](./assets/imagenes/tab.png)
-![Tab enlace](./assets/imagenes/tab2.png)
+![Tab producto](/imagenes/tab.png)
+![Tab enlace](/imagenes/tab2.png)
 
 
 
@@ -20,7 +20,6 @@
 - El lector de pantalla anuncia si el menú está abierto o cerrado.
 - Funciona correctamente en pantallas pequeñas.
 
-✔ Menú completamente accesible.
 
 ---
 
@@ -30,7 +29,6 @@
 - Se emplean encabezados semánticos (`h1`, `h2`) correctamente.
 - La estructura del contenido facilita la lectura por voz.
 
-✔ Compatible con lectores de pantalla.
 
 ---
 
@@ -38,16 +36,7 @@
 - El orden de lectura es correcto: botón → título → imagen → descripción.
 - No hay elementos inaccesibles ni saltos inesperados.
 
-✔ Experiencia accesible y clara.
 
 ---
 
-## Conclusión
-La aplicación cumple los requisitos fundamentales de accesibilidad:
 
-- ✔ Navegación por teclado  
-- ✔ Lectores de pantalla  
-- ✔ Uso adecuado de ARIA  
-- ✔ Estructura semántica correcta
-
----
